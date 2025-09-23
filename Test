@@ -978,4 +978,5 @@ local transparencySlider = Tab:Slider({
         WindUI.TransparencyValue = tonumber(value)
         Window:ToggleTransparency(tonumber(value) > 0)
     end
+
 })
